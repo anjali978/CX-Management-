@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <label class="Dashboard"> Dashboard</label>
+        <label class="search">Search</label>
+        <input placeholder="Search..." class="search11">
+        <p class="date">Today: {{ currentDate | date:'EEEE d MMM, yyyy' }}</p>
+        <!-- 1st box -->
+        <div class="box1">
+            <label class="StockInventory">Stock Inventory</label>
+            <img class="ic1" src="../assets/Vector (11).png">
+            <label class="numcolor1"> 15/50</label>
+        </div>
+
+        <!-- box5nd -->
+        <div class="box2">
+            <label class="OverdueAssets">Overdue Assets</label>
+            <img class="ic6" src="../assets/Que.png">
+            <span class="numcolor6"> 02</span>
+        </div>
+
+        <!--4rd box  -->
+        <div class="box3">
+            <label class="AllocatedAssets">Allocated Assets</label>
+            <img class="ic4" src="../assets/All out.png">
+            <span class="numcolor4">35 </span>
+        </div>
+        <!-- 3box -->
+        <div class="box4">
+            <label class="ExtensionRequest">Extension Request</label>
+            <img class="ic3" src="../assets/Insert White Space.png">
+            <span class="numcolor3">01 </span>
+        </div>
+
+        <!-- box 2 -->
+        <div class="box5">
+            <label class=" PendingApprovals">No&nbsp;of&nbsp;Pending Approvals</label>
+            <img class="ic2" src="../assets/Vector (12).png">
+            <span class="numcolor2"> 15</span>
+        </div>
+
+        <!-- box 6 -->
+        <div class="box6">
+            <label class="Obsolete">Obsolete
+                Assets</label>
+            <img class="ic5" src="../assets/Used Product.png">
+            <span class="numcolor5"> 00</span>
+        </div>
+        <!-- calendar here -->
+        <div class="calender">
+            <mat-calendar style="width: 200px; background-color:  #FFFFFF;"></mat-calendar>
+        </div>
+
+        <button  mat-raised-button color="accent"><a routerLink="/view-request" routerLinkActive="active"> <img class="btn2-ic" src="../assets/Vector (10).png">Visit
+            Inventory </a></button>
+        <button mat-raised-button color="primary" > <a routerLink="/view-request" routerLinkActive="active"> <img class="btn-ic" src="../assets/Group 38.png"> &nbsp; View
+            Requests
+        </a>
+        </button>
+    </div>
+
+</body>
+
+</html>

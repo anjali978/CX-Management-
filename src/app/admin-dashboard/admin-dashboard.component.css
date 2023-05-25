@@ -1,0 +1,673 @@
+
+/* .main{
+    position: absolute;
+    width: 296px;
+    height: 200px;
+    left: 300px;
+    top: 146px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+} */
+.Dashboard{
+    position: absolute;
+width: 174px;
+height: 47px;
+left: 70px;
+top: 90px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.date{
+    position: absolute;
+width: 400px;
+height: 20px;
+left: 70px;
+top: 135px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+}
+
+.box1{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    left: 70px;
+    top: 235px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* .main_div{
+    background: #916060;
+} */
+
+/* 2nd row 2 box */
+.box2{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    left: 380px;
+    top: 514px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+/* 2nd row 1st box */
+.box3{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    left: 70px;
+    top: 514px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+}
+
+.box4{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    left: 690px;
+    top: 235px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;  
+}
+/* 1st row 2nd box */
+.box5{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    left: 380px;
+    top: 235px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;  
+}
+
+.box6{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    left: 690px;
+    top: 514px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.calender{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 20px;
+
+position: absolute;
+width: 200px;
+height: 280px;
+left: 80%;
+top: 150px;
+
+background: #FFFFFF;
+border-radius: 5px;
+}
+
+
+
+button[color="primary"] {
+    background-color: #2AA5FE;
+    color: #F4F4F4;;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px ;
+gap: 20px;
+
+position: absolute;
+width: 230px;
+height: 50px;
+left: 80%;
+top: 587px;
+/* 
+background: #2AA5FE; */
+border-radius: 10px;
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+  .btn-ic{
+    width: 20px;
+height: 20px;
+left: 10px;
+right: 200px;
+top: 21.5px;
+
+  }
+
+
+  button[color="accent"]{
+    background-color: #2AA5FE;
+    color: #F4F4F4;;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px ;
+gap: 20px;
+
+position: absolute;
+width: 230px;
+height: 50px;
+left: 80%;
+top: 510px;
+/* 
+background: #2AA5FE; */
+border-radius: 10px;
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+
+  .btn2-ic{
+    width: 20px;
+    height: 20px;
+    left: 10px;
+right: 200px;
+top: 21.5px;
+  }
+
+  .StockInventory{
+    position: absolute;
+width: 1px;
+height: 80px;
+left: 30px;
+top: 155px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 50;
+font-size: 30px;
+line-height: 30px;
+
+color: #000000;
+
+  }
+
+  .numcolor1{
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 30px;
+top: -10px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 50px;
+line-height: 84px;
+/* identical to box height */
+
+
+color: #0596FF;
+
+  }
+
+  .ic1{
+    position: absolute;
+left: 76%;
+right: 67.34%;
+top: 5%;
+bottom: 64.26%;
+
+/* background: #7D7D7D; */
+  }
+
+  .PendingApprovals{
+    position: absolute;
+width: 10px;
+height: 50px;
+left: 50px;
+top: 160px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 50;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+ 
+  }
+
+  .numcolor2{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 30px;
+    top: -10px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 84px;
+    /* identical to box height */
+    
+
+
+color: #FF5269;
+
+  }
+
+  .ic2{
+    
+position: absolute;
+left: 80%;
+right: 49.01%;
+top: 5%;
+bottom: 64.26%;
+
+/* background: #7D7D7D; */
+  }
+
+  .ExtensionRequest{
+    position: absolute;
+width: 10px;
+height: 50px;
+left: 50px;
+top: 160px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 50;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+ 
+  }
+
+  .ic3{
+    position: absolute;
+left: 75%;
+right: 49.01%;
+top: 5%;
+bottom: 64.26%;
+  }
+
+  .numcolor3{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 30px;
+    top: -10px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 84px;
+    /* identical to box height */
+    
+    color: #FF5269
+  }
+
+  .AllocatedAssets{
+    position: absolute;
+width: 10px;
+height: 50px;
+left: 50px;
+top: 160px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 50;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+  }
+
+  .ic4{
+    position: absolute;
+left: 75%;
+right: 49.01%;
+top: 5%;
+bottom: 64.26%;
+  }
+
+  .numcolor4{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 30px;
+    top: -10px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 84px;
+    color: #0596FF;
+  }
+
+  .Obsolete{
+    position: absolute;
+width: 10px;
+height: 50px;
+left: 50px;
+top: 160px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 50;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+  }
+
+  .ic5{
+    position: absolute;
+    left: 75%;
+    right: 49.01%;
+    top: 5%;
+    bottom: 64.26%;
+  }
+
+  .numcolor5{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 30px;
+    top: -10px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 84px;
+    color: #A375FF;
+  }
+
+  .OverdueAssets{
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    left: 50px;
+    top: 160px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #000000;
+  }
+  .ic6{
+    position: absolute;
+    left: 75%;
+    right: 49.01%;
+    top: 5%;
+    bottom: 64.26%;
+  }
+  .numcolor6{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 30px;
+    top: -10px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 84px;
+    color: #FF5269;
+  }
+
+  .search{
+    
+position: absolute;
+width: 58px;
+height: 20px;
+left: 935px;
+top: 98px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+  }
+
+  .search11{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+gap: 8px;
+
+position: absolute;
+width: 250px;
+height: 38px;
+left: 1000px;
+top: 95px;
+
+background: #FFFFFF;
+border: 2px solid #D9D9D9;
+border-radius: 8px;
+  }
+
+  .search11 ,::placeholder{
+    
+width: 250px;
+height: 24px;
+left: 1000px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+
+color: #000000;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+  }
+
+
+
+
+  .box1:hover {
+    border-color: #1f1d1f;
+}
+
+.box1::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: border-color 0.3s ease;
+}
+
+.box1:hover::before {
+    border-color: #8b8b8b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Change box shadow on hover */
+}
+
+/* box 2 */
+.box5:hover {
+    border-color: #1f1d1f;
+}
+
+
+
+.box5::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: border-color 0.3s ease;
+}
+
+.box5:hover::before {
+    border-color: #8b8b8b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Change box shadow on hover */
+}
+
+
+/* box3 */
+.box4:hover {
+    border-color: #1f1d1f;
+}
+
+.box4::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: border-color 0.3s ease;
+}
+
+.box4:hover::before {
+    border-color: #8b8b8b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Change box shadow on hover */
+}
+
+
+
+.box2:hover {
+    border-color: #1f1d1f;
+}
+
+.box2::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: border-color 0.3s ease;
+}
+
+.box2:hover::before {
+    border-color: #8b8b8b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Change box shadow on hover */
+}
+
+
+
+
+.box3:hover {
+    border-color: #1f1d1f;
+}
+
+.box3::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: border-color 0.3s ease;
+}
+
+.box3:hover::before {
+    border-color: #8b8b8b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Change box shadow on hover */
+}
+
+
+
+.box6:hover {
+    border-color: #1f1d1f;
+}
+
+.box6::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: border-color 0.3s ease;
+}
+
+.box6:hover::before {
+    border-color: #8b8b8b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Change box shadow on hover */
+}

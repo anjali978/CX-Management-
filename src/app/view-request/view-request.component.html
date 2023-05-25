@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <app-sidebarr></app-sidebarr> -->
+    <div class="main">
+        <!-- <img class="bar" src="../assets/Rectangle 5.png"> -->
+
+        <label class="ViewRequests">View Requests</label>
+
+        <a class="dashboard_link" href="">Dashboard</a>
+        <label class="shlash"> / </label>
+        <a class=" ViewRequestss"> View Requests</a>
+
+        <a class="TotalRequests" href="">Total Requests</a>
+        <div class="value_box">23</div>
+        <label class="slash"></label>
+
+        <a class="ApprovedRequests">Approved Requests</a>
+        <div class="value_box1">
+             23
+        </div>
+        <label class="shlash1"></label>
+
+        <a class="Denied">Denied</a>
+        <div class="value_box2">10</div>
+
+        <label class="shlash3"></label>
+        <a class="PendingApprovals">Pending Approvals</a>
+        <div class="value_box3">12</div>
+    </div>
+
+    <button  class="ViewHistory"> <img class="watch" src="../assets/Vector (5).png">View History</button>
+    <!-- <img class="watch" src="../assets/Vector (5).png"> -->
+    <button (click)="downloadCSV()" class="DownloadReport"> <img class="Download_icon" src="../assets/Vector (6).png">Download Report &nbsp;</button>
+
+    <!-- table -->
+    <div class="table_border">
+        <table class="tablee">
+            <thead class="theadd">
+              <tr class="tdd" style="border-right: 1px solid silver; border-bottom: 1px solid silver;">
+                <th>Sr.No</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Device</th>
+                <th>Make & Model</th>
+                <th>Requested By</th>
+                <th>Business<br/>Justification</th>
+                <th>Status</th>
+                <th>Approver<br />Remarks</th>
+              </tr>
+            </thead>
+            <tbody *ngFor="let RequestData of requestList.data" [ngStyle]="{ 'background-color': '' }">
+              <tr>
+                <td class="id">{{ RequestData.assetId?.assetId }}</td>
+                <td>{{ RequestData.startdate }}</td>
+                <td>{{ RequestData.enddate }}</td>
+                <td>{{ RequestData.assetId?.device }}</td>
+                <td>{{ RequestData.assetId?. makeAndModel }}</td>
+                <td>{{ RequestData.request }}</td>
+                <td>{{ RequestData.justification }}</td>
+                <td>{{ RequestData.status }}</td>
+                <td>{{ RequestData.remark }}</td>
+              </tr>
+            </tbody>
+          </table>
+          
+
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+.Dashboard1{
+    position: absolute;
+width: 174px;
+height: 47px;
+left: 55px;
+top: 90px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+
+.datee{
+    position: absolute;
+width: 400px;
+height: 20px;
+left: 55px;
+top: 135px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+.rect1{
+    position: absolute;
+width: 450px;
+height: 220px;
+left: 55px;
+top: 200px;
+
+background: #FFFFFF;
+box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+}
+
+.sq1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 215px;
+height: 215px;
+left: 55px;
+top: 440px;
+
+background: #FFFFFF;
+box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.2);
+border: 1px solid #F9FFEE;
+border-radius: 10px;
+}
+
+.sq2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 215px;
+height: 215px;
+left: 285px;
+top: 440px;
+
+background: #FFFFFF;
+box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.2);
+border: 1px solid #F8FFEC;
+border-radius: 10px;
+}
+
+.react2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 320px;
+height: 460px;
+left: 520px;
+top: 200px;
+
+background: #FFFFFF;
+box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.2);
+border: 1px solid #F9FFEE;
+border-radius: 10px;
+}
+
+.calenderrr{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 70%;
+    top: 150px;
+    
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+button[color="primary"] {
+    background-color:#00A39B;
+    color: #F4F4F4;;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px ;
+gap: 0px;
+
+position: absolute;
+width: 268px;
+height: 50px;
+left: 72%;
+top: 587px;
+/* 
+background: #2AA5FE; */
+border-radius: 10px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
